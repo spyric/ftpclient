@@ -1,14 +1,13 @@
 {
   "name": "spyric/ftpclient",
   "description": "FTPClient for PHP",
-  "version": "1.0",
   "type": "library",
   "keywords": ["php", "ftp", "client", "ftpclient", "class"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Melih Ucar",
-      "homepage": "https://github.com/melihucar"
+      "name": "Egor Talantsev",
+      "homepage": "https://ananas-web.ru"
     }
   ],
   "require": {
@@ -16,8 +15,8 @@
     "ext-ftp": "*"
   },
   "autoload": {
-    "psr-0": {
-      "Melihucar": "src/"
+    "psr-4": {
+      "Spyric\\FTP\\": "src/"
     }
   }
 }
